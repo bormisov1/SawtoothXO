@@ -1,3 +1,7 @@
+/*
+This code was written by Bormisov Vlad @bormisov.
+*/
+
 'use strict'
 
 const { createContext, CryptoFactory } = require('sawtooth-sdk/signing')

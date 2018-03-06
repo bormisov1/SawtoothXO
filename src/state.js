@@ -1,9 +1,7 @@
-// SPDX-License-Identifier: Apache-2.0
-
 /* 
-This code was written by Zac Delventhal @delventhalz.
-Original source code can be found here: https://github.com/delventhalz/transfer-chain-js/blob/master/client/src/state.js
+This code was written by Bormisov Vlad @bormisov.
  */
+
 'use strict'
 
 const $ = require('jquery')
@@ -14,12 +12,9 @@ const { preparePayload } = require('./prepare_payload')
 const hash = require('hash.js')
 
 // Config variables
-const KEY_NAME = 'transfer-chain.keys'
-const API_URL = 'http://localhost:80'
-/*
-const FAMILY = 'transfer-chain'
-const VERSION = '0.0'
-*/
+const KEY_NAME = 'xo.keys'
+const API_URL = 'http://localhost:8008'
+
 const FAMILY = 'xo'
 const VERSION = '1.0'
 const PREFIX = '5b7349'
