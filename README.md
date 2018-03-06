@@ -1,7 +1,8 @@
 # SawtoothXO
 Client for Hyperledger Sawtooth's XO transaction family
 
-1. npm init
+1. ```npm i```
+2. ```npm run build```
 2. Open index.html in any browser
 
 Appropriate docker-compose file: https://sawtooth.hyperledger.org/docs/core/releases/1.0.1/app_developers_guide/sawtooth-default.yaml
@@ -27,4 +28,6 @@ If having issues with 405 method unallowed for OPTIONS or CORS:
     RewriteRule .* / [R=200,L]
   </VirtualHost>
 ```
-3. sudo apachectl restart
+3. ```sudo apachectl restart```
+4. change port to 80 at src/state.js:16
+5. ```npm run build```
